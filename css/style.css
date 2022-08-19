@@ -37,7 +37,7 @@
 }
 
 #footer {
-  background-image: url("/assets/img/fondo.png");
+  background-image: url("../assets/backgrounds/fondo.jpg");
   padding: 30px;
 }
 
