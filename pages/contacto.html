@@ -11,23 +11,37 @@
 </head>
 
     <body>
-        <header>
-            <nav>
-                <a href="../index.html">
-                <img src="../assets/img/bierlifefoto.png" alt="BierlifeZonaNorte" width="100px">
-                </a>
-                <ul>
-                    <li id="barrainicio">
-                    <a href="../index.html">Inicio</a>
-                    <a href="./productos.html">Productos</a>
-                    <a href="./quienessomos.html">Quienes Somos</a>
-                    <a href="./promociones.html">Promociones</a>
-                    <a href="./contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+        
+    
+<header>
+    <nav id="chiusano">
+      <a href="../index.html">
+        <img class="fotobierlife" src="../assets/img/bierlifefoto.png" alt="BierlifeZonaNorte" width="100px">
 
+        
+
+          <ul class="chiusa">
+            <li class="matichiu">
+              <a href="../index.html" class="matias">Inicio</a>
+            </li>
+            <li class="matichiu">
+              <a href="../pages/productos.html" class="matias">Productos</a>
+            </li>
+            <li class="matichiu">
+              <a href="../pages/quienessomos.html" class="matias">Quiénes Somos</a>
+            </li>
+            <li class="matichiu">
+              <a href="../pages/promociones.html" class="matias">Promociones</a>
+            </li>
+            <li class="matichiu">
+              <a href="../pages/contacto.html" class="matias">Contacto</a>
+            </li>
+          </ul>
+        
+
+    </nav>
+ </header>
+    
 
         
         <form action="procesar.php" name="contacto" method="post">
@@ -53,8 +67,8 @@
                 <label>Fecha de nacimiento
                     <input type="date" name="Fecha de nacimiento" placeholder="date" required>
                 </label>
-            </p>
-            <p>
+               </p>
+               <p>
                 <h4>¿Cuál es tu birra favorita?</h4>
                 <label for="birra">Golden</label>
                    <input type="checkbox" name="Golden" value="golden">
@@ -73,7 +87,7 @@
     
                    <label for="birra">Frutada</label>
                    <input type="checkbox" name="Frutada" value="Frutada">
-    </p>
+                 </p>
                 <p>
                 <h4><b>Dejanos tu comentario</b></h4><textarea name="comentario" id="" cols="30" rows="10"></textarea><br><br>
                 </p>
